@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    vertical-align: middle;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #4caf4f;
+    color: rgba(255, 255, 255, 0.765);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+}
